@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="../js/prefixes.js"></script>
+    <script src="../js/benchmark.js"></script>
+      <script src="../js/faker.js"></script>
+
+    <!-- jQuery нам нужна только ради jQuery.Deferred -->
+    <script src="../js/jquery.js"></script>
+    <script src="read.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body style="text-align:center">
+    <h1>Маленький jsperf</h1>
+    <h2>Чтение</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Хранилище</th>
+            <th>Ops/sec</th>
+            <th>Погрешность</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="etalon">
+            <td>Эталон</td>
+            <td class="hz">вычисляется</td>
+            <td class="moe">вычисляется</td>
+          </tr>
+
+          <tr id="idb">
+            <td>IndexedDB</td>
+            <td class="hz">вычисляется</td>
+            <td class="moe">вычисляется</td>
+          </tr>
+
+          <tr id="websql">
+            <td>Web SQL Database</td>
+            <td class="hz">вычисляется</td>
+            <td class="moe">вычисляется</td>
+          </tr>
+
+          <tr id="fsapi">
+            <td>Filesystem API</td>
+            <td class="hz">вычисляется</td>
+            <td class="moe">вычисляется</td>
+          </tr>
+
+          <tr id="ls">
+            <td>localStorage</td>
+            <td class="hz">вычисляется</td>
+            <td class="moe">вычисляется</td>
+          </tr>
+
+          <tr id="cache">
+            <td>XHR Cache</td>
+            <td class="hz">вычисляется</td>
+            <td class="moe">вычисляется</td>
+          </tr>
+        </tbody>
+    </table>
+</body>
+</html>
