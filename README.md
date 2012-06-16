@@ -109,6 +109,7 @@ Blob (и File, но объект File наследуется от Blob'а, по�
 <dd><a href="https://developer.mozilla.org/en/IndexedDB/Basic_Concepts_Behind_IndexedDB">Basic Concepts About IndexedDB</dd>
 <dd><a href="https://developer.mozilla.org/en/IndexedDB/Using_IndexedDB">Using IndexedDB</a></dd>
 <dd><a href="http://www.html5rocks.com/en/tutorials/indexeddb/todo/">A simple TODO list using HTML5 IndexedDB</a></dd>
+<dd><a href="http://www.nyayapati.com/surya/2012/05/using-and-working-with-indexeddb/">Using and working with IndexedDB</a></dd>
 
 <dt>Библиотеки</dt>
 <dd><a href="https://github.com/jensarps/IDBWrapper">IDBWrapper</a> (для упрощения интерфейса)</dd>
